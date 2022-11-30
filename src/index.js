@@ -13,7 +13,7 @@ button.addEventListener("click", async () => {
   console.log("to", to);
   console.log("text", text);
 
-  const url = "http://localhost:8080/send-email";
+  const url = "https://my-first-web-server.onrender.com/send-order";
 
   const res = await fetch(url, {
     method: "POST",
